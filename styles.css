@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerClock {
+    padding: 10px;
+    background-image: url("Na1.jpeg");
+    background-size:contain;
+    height: 844px;
+    background-repeat: no-repeat;
+    /* display: none; */
+}
+
+.container {
+    display: flex;
+}
+
+.NasClock {
+    border: 1px solid black;
+    width:fit-content;
+    padding: 5px;
+    color:black;
+    background-color: #ffff;
+}
+
+.NasDate {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #ffff;
+    height: fit-content;
+    margin-left: 20px;
+}
+
+.btnChangeBg,
+.btnVlt {
+    padding: 5px;
+}
+
+.vlt {
+    text-align: center;
+    color: black;
+    display: none;
+}
